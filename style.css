@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  background-color: #fff;
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 70px 20px;
+  padding: 40px 50px;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  color: #716f6f;
+  font-size: 14px;
+  font-weight: 700;
+}
+label span {
+  font-size: 14;
+  font-weight: 400;
+  font-style: italic;
+}
+input {
+  width: 160px;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+.line-arrow {
+  display: flex;
+  align-items: center;
+}
+hr {
+  display: inline-block;
+  width: 90%;
+  border: 0;
+  border-top: 1px solid #dbdbdb;
+}
+.arrow {
+  background-color: #854dff;
+  display: inline-block;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  padding: 25px;
+}
+.age {
+}
+.age p {
+  font-size: 104px;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: -20px;
+  color: #141414;
+}
+.age p span {
+  color: #854dff;
+}
+
+.error-text {
+  color: #ff5757;
+}
+.error-border {
+  border: 1px solid #ff5757;
+}
